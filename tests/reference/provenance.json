@@ -1,0 +1,37 @@
+{
+  "python": "3.14.4",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "solvers": [
+    "Radau",
+    "DOP853"
+  ],
+  "rtol": 2e-12,
+  "atol": [
+    1e-11,
+    1e-20,
+    1e-20,
+    1e-20,
+    1e-20,
+    1e-20,
+    1e-11,
+    1e-11,
+    1e-20,
+    1e-20,
+    1e-20,
+    1e-20,
+    1e-20,
+    1e-20,
+    1e-20,
+    1e-20,
+    1e-20,
+    1e-20,
+    1e-20,
+    1e-20,
+    1e-20
+  ],
+  "generator_sha256": "4f54818ab6e683065e0220b4c646c00b61dd596a0220d50d374c593f6186c70d",
+  "csv_sha256": "2ed907cc8c9fedfd97eb54ac4815910f870756cec64e72d31e51f32f9bed8b0e",
+  "max_scaled_solver_disagreement": 0.010379909303460914,
+  "status": "numerical reference for specified equations; not empirical validation"
+}
